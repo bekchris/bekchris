@@ -1,1 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 20px;
+}
+body {
+  background-color: antiquewhite;
+}
+/* Instrument Css */
+.instrument {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: auto auto;
+}
+#nav-bar {
+  display: flex;
+}
+.nav-link {
+  padding-left: 10px;
+  padding-right: 30px;
+}
+.first-header h2{
+  text-align: center;
+  margin-block: 20px;
+  font-size: 200%;
+}
+#email {
+  width: 250px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.first-button {
+  background-color: yellow;
+  width: 150px;
+  padding: 15px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.email-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.features{
+  width: 70%;
+  margin: auto auto;
+}
+.all-p {
+  font-size: 130%;
+}
+.title_head {
+  display: flex;
+  align-items: center;
+  margin-block: 30px;
+}
+.title_icon{
+  margin-right: 60px;
+}
+.title h2{
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.box {
+  border: 2px solid black;
+  margin: 20px;
+  width: 40%;
+  text-align: center;
+}
+.header-box {
+  background-color: lightgray;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  font-size: 1rem;
+}
+.amount {
+  margin-block: 8px;
+  text-align: center;
+}
+#header {
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  justify-content: space-between;
+  padding-block: 20px;
+}
+.box-button{
+  background-color: yellow;
+  padding: 10px;
+  margin: 10px auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 40%;
+  display: block;
+}
+footer{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+}
+
+@media (max-width: 800px){
+
+.instrument {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+}
+
+.box {
+  border: 2px solid black;
+  margin-block: 30px;
+  margin-left: 30px;
+  width: 150%;
+  text-align: center;
+}
+
+} 
+ 
+
 
